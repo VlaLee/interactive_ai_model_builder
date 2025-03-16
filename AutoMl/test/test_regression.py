@@ -1,8 +1,9 @@
-from automl.models import BayesianOptimizationHPO, EvolutionaryStrategyHPO
-from automl.comparison import compare_hpo_methods
-
+from AutoMl.automl.models import BayesianOptimizationHPO, EvolutionaryStrategyHPO
+from AutoMl.automl.comparison import compare_hpo_methods
 
 from sklearn.ensemble import GradientBoostingRegressor
+
+
 config_regression = {
     'task_type': 'regression',
     'model': {

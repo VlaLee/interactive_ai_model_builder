@@ -1,8 +1,9 @@
-from automl.models import BayesianOptimizationHPO, EvolutionaryStrategyHPO
-from automl.comparison import compare_hpo_methods
-
+from AutoMl.automl.models import BayesianOptimizationHPO, EvolutionaryStrategyHPO
+from AutoMl.automl.comparison import compare_hpo_methods
 
 from sklearn.ensemble import RandomForestClassifier
+
+
 config_classification = {
     'task_type': 'classification',
     'model': {
